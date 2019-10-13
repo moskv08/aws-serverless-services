@@ -1,0 +1,21 @@
+{
+  "name": "serverless-reminders",
+  "version": "1.0.0",
+  "description": "Serverless function responsible to send daily and weekly e-mail reminders running on AWS",
+  "main": "handler.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "serverless",
+    "aws"
+  ],
+  "author": "Fabrizio Zihlmann",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1"
+  }
+}
